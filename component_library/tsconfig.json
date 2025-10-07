@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "types": ["jest", "@testing-library/jest-dom"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "emitDeclarationOnly": true,
+    "noEmit": false,
+    "composite": true
+  },
+  "include": ["src", "**/*.test.ts", "**/*.test.tsx", "global.d.ts"],
+  "exclude": ["node_modules", "dist"]
+}
